@@ -1,0 +1,42 @@
+{
+  "name": "highlight_prev_tab",
+  "title": "Previous tab highlighting",
+  "id": "jid1-rOGUyxs2TvBBuA",
+  "description": "Previous tab highlighting",
+  "author": "Dmitriy Kolchanskiy",
+  "license": "MPL 2.0",
+  "version": "1.0",
+  "permissions": {"private-browsing": true},
+  "preferences": [
+  {
+    "name": "style_radio",
+    "type": "radio",
+    "title": "Style highlight",
+    "value": "bold",
+    "options": [
+    {
+      "value": "bold",
+      "label": "Bold"
+    },
+    {
+      "value": "opacity",
+      "label": "Translucent"
+    },
+    {
+      "value": "custom",
+      "label": "Custom"
+    }]
+    },
+    {
+      "name": "css_name",
+      "title": "Custom CSS-property name",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "css_value",
+      "title": "Custom CSS-property value",
+      "type": "string",
+      "value": ""
+    }]
+}
