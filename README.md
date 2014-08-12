@@ -6,4 +6,4 @@ There are two styles to choose: to highlight the text tab in bold or apply the t
 
 При переключении между множеством вкладок, часто возникает ситуация, когда забываешь, на какой вкладке был до этого. Это маленькое расширение решает эту проблему, подсвечивая предыдущую вкладку. На выбор имеется два стиля подсветки: выделение текста вкладки полужирным шрифтом и полупрозрачность всей вкладки. Также есть возможность указать своё CSS-свойство.
 
-AMO: [https://addons.mozilla.org/ru/firefox/addon/prev_tab_highlighting/]
+AMO: https://addons.mozilla.org/ru/firefox/addon/prev_tab_highlighting

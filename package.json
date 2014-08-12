@@ -1,31 +1,35 @@
 {
-  "name": "highlight_prev_tab",
+  "name": "previous_tab_highlighting",
   "title": "Previous tab highlighting",
   "id": "jid1-rOGUyxs2TvBBuA",
   "description": "Previous tab highlighting",
   "author": "Dmitriy Kolchanskiy",
   "license": "MPL 2.0",
-  "version": "1.0",
-  "permissions": {"private-browsing": true},
+  "version": "1.1",
+  "homepage": "https://github.com/shaker/previous-tab-highlighting",
+  "permissions": {
+    "private-browsing": true
+  },
   "preferences": [
-  {
-    "name": "style_radio",
-    "type": "radio",
-    "title": "Style highlight",
-    "value": "bold",
-    "options": [
     {
+      "name": "style_radio",
+      "type": "radio",
+      "title": "Style highlight",
       "value": "bold",
-      "label": "Bold"
-    },
-    {
-      "value": "opacity",
-      "label": "Translucent"
-    },
-    {
-      "value": "custom",
-      "label": "Custom"
-    }]
+      "options": [
+        {
+          "value": "bold",
+          "label": "Bold"
+        },
+        {
+          "value": "opacity",
+          "label": "Translucent"
+        },
+        {
+          "value": "custom",
+          "label": "Custom"
+        }
+      ]
     },
     {
       "name": "css_name",
@@ -38,5 +42,6 @@
       "title": "Custom CSS-property value",
       "type": "string",
       "value": ""
-    }]
+    }
+  ]
 }
